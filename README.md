@@ -50,11 +50,11 @@ The most reliable way to fix this is to completely remove and then reinstall the
 
 **For easy access:**
 
-    ```bash
-    npm uninstall ajv ajv-keywords schema-utils
-    npm install ajv ajv-keywords schema-utils
-    npm start
-    ```
+```bash
+npm uninstall ajv ajv-keywords schema-utils
+npm install ajv ajv-keywords schema-utils
+npm start
+```
 
 **Why This Works:**
 
