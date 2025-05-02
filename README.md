@@ -48,6 +48,14 @@ The most reliable way to fix this is to completely remove and then reinstall the
     npm start
     ```
 
+**For easy access:**
+
+    ```bash
+    npm uninstall ajv ajv-keywords schema-utils
+    npm install ajv ajv-keywords schema-utils
+    npm start
+    ```
+
 **Why This Works:**
 
 This process ensures that you have a clean and consistent installation of the `ajv`, `ajv-keywords`, and `schema-utils` packages. By removing the existing (potentially faulty) versions and installing them anew, you eliminate any underlying issues causing the "Cannot find module" error.
